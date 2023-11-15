@@ -15,3 +15,4 @@ let details = function(color,breed){
 }
 
 details.call(p2,'orange', 'persian')
+details.apply(p1,['green','turkish'])
