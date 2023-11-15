@@ -16,3 +16,6 @@ let details = function(color,breed){
 
 details.call(p2,'orange', 'persian')
 details.apply(p1,['green','turkish'])
+let bindCat = details.bind(p1,'orangawhite','persian')
+
+bindCat()
